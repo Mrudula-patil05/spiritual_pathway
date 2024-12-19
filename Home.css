@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    min-height: 100%;
+    
+    background-image: url('./images/Landingimage.jpg');
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+header ul li a:hover , 
+header ul li a.active
+{
+    background: white;
+    color: #2b1055;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#text{
+    position: absolute;
+    color: black;
+    white-space: nowrap;
+    font-size: 400%;
+    z-index: 9;
+    margin-left: -130px;
+
+
+}
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: white;
+    color: #2b1055;
+    font-size: 1.5em;
+    margin-left: center;
+    margin-bottom: -25%;
+  
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: white;
+    overflow: scroll;
+    background-image: url('./images/pngtree-peaceful-sunrise-over-the-temples-of-bagan-myanmar-with-hot-air-image_16241350.jpg');
+    background-size: cover;
+    background-position: center;
+	  background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 20px;
+}
+header ul li a:hover , 
+header ul li a.active
+{
+    background: silver;
+}
+
+h2{
+    font-size: 50px;
+}
+
+
+
+
+
+#Tempels{
+    width: 100%;
+    height: 100vh;
+  }
+  .gallery h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .temples{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .gallery{
+    width: 30%;
+    height: 90%;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 30px;
+    box-shadow: 0 14px 38px black, 0 10px 10px black;
+    
+    background: #f2f2f2;
+  }
+  .gallery:hover{
+    box-shadow: 0 14px 38px black, 0 10px 10px black;
+    
+  }
+  .gallery img{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  .gallery p{
+    color: black;
+  }
+ 
+  

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(./images/loginbg.jpg); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  background-attachment: fixed; /* Keeps the background fixed during scrolling */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Ensures the body takes full viewport height */
+}
+
+.form-box {
+  backdrop-filter: blur(15px);
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 10%; /* Align to the left */
+  transform: translateY(-50%);
+  width: 500px;
+  border: 5px solid black;
+  border-radius: 20px;
+
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.imgcontainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+img.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.form-group {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-group a {
+  color: blue;
+  text-decoration: underline;
+}
