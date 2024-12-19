@@ -1,2 +1,14 @@
-# spiritual_pathway
-"Spiritual Pathway" is a blog website that explores India's famous temples, with a focus on Panch Dwarka. It features a login and register form for users to access content and provides insights into spiritual heritage. Built using HTML and CSS, the website offers a simple and informative space for spiritual discovery.
+
+Spiritual Pathway
+Author: Mrudula Patil
+
+Overview
+"Spiritual Pathway" is a simple blog website that explores famous temples across India, with a special focus on Panch Dwarka. The website offers a login and registration feature for users to access additional content.
+
+Features
+Login & Register: Allows users to create accounts and log in to the website.
+Famous Temples in India: Provides detailed information about famous temples in India, highlighting their history and significance.
+Panch Dwarka: A dedicated section exploring the temples in Panch Dwarka.
+Technologies Used
+HTML
+CSS
